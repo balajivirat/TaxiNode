@@ -47,7 +47,7 @@ app.post('/send-email', async (req, res) => {
         // Send email
         await transporter.sendMail({
             from: "balajikvirat@gmail.com",
-            to: "devaprakash.m1997@gmail.com",
+            to: "udayavisco@gmail.com",
             subject: "Get ready for new Ride",
             text: message,
         });
